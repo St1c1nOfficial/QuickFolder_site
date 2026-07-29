@@ -1,45 +1,45 @@
-# QuickFolder — сайт
+# QuickFolder — Website
 
-Официальный лендинг **QuickFolder** — лёгкого Windows-приложения для быстрого доступа к избранным папкам.
+Official landing page for **QuickFolder** — a lightweight Windows app for quick access to your favorite folders.
 
 **by Sticin**
 
-## Ссылки
+## Links
 
 | | URL |
 |---|-----|
-| 🌐 **Сайт** | https://sticinofficial.github.io/QuickFolder_site/ |
-| 📦 Репозиторий сайта | https://github.com/SticinOfficial/QuickFolder_site |
-| 💻 Исходный код приложения | https://github.com/SticinOfficial/QuickFolder |
-| ⬇️ Скачать `.exe` | https://github.com/SticinOfficial/QuickFolder/releases |
+| 🌐 **Website** | https://sticinofficial.github.io/QuickFolder_site/ |
+| 📦 Website repository | https://github.com/SticinOfficial/QuickFolder_site |
+| 💻 App source code | https://github.com/SticinOfficial/QuickFolder |
+| ⬇️ Download `.exe` | https://github.com/SticinOfficial/QuickFolder/releases |
 
-> Аккаунт GitHub: **[SticinOfficial](https://github.com/SticinOfficial)**  
-> Бренд / автор: **Sticin**
+> GitHub account: **[SticinOfficial](https://github.com/SticinOfficial)**  
+> Brand / author: **Sticin**
 
-## О приложении
+## About the app
 
-QuickFolder держит важные каталоги под рукой: проекты, документы, учёба, загрузки.  
-Открытие в проводнике — в один клик. Без облака, без аккаунта, данные только на вашем ПК.
+QuickFolder keeps your important directories within reach: projects, documents, schoolwork, downloads.  
+Open them in File Explorer with one click. No cloud, no account — your data stays on your PC.
 
-- Один файл `.exe`
-- Группы, избранное, поиск
-- Русский / English
+- Single `.exe` file
+- Groups, favorites, search
+- Russian / English
 - Offline
 
-## Структура репозитория
+## Repository structure
 
 ```
-├── index.html      # Главная страница
-├── styles.css      # Стили
-├── assets/         # Логотип и скриншот UI
+├── index.html      # Main page
+├── styles.css      # Styles
+├── assets/         # Logo and UI screenshot
 │   ├── logo.png
 │   └── ui-mockup.png
 └── README.md
 ```
 
-## Локальный просмотр
+## Local preview
 
-Откройте `index.html` в браузере или поднимите простой сервер:
+Open `index.html` in a browser or start a simple server:
 
 ```bash
 # Python
@@ -49,19 +49,19 @@ python -m http.server 8080
 npx serve .
 ```
 
-Затем: http://localhost:8080
+Then open: http://localhost:8080
 
 ## GitHub Pages
 
-Pages уже включены.
+Pages are already enabled.
 
 - **Branch:** `main`
 - **Folder:** `/ (root)`
 - **URL:** https://sticinofficial.github.io/QuickFolder_site/
 
-Если сайт не обновился — подождите 1–2 минуты или сделайте Ctrl+F5.
+If the site has not updated yet — wait 1–2 minutes or hard-refresh with Ctrl+F5.
 
-## Лицензия
+## License
 
-Контент сайта — для проекта QuickFolder.  
-Приложение: см. [лицензию в основном репозитории](https://github.com/SticinOfficial/QuickFolder).
+Website content is for the QuickFolder project.  
+App license: see the [license in the main repository](https://github.com/SticinOfficial/QuickFolder).
