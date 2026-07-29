@@ -31,6 +31,7 @@ Open them in File Explorer with one click. No cloud, no account — your data st
 ```
 ├── index.html      # Main page
 ├── styles.css      # Styles
+├── i18n.js         # RU/EN language switcher
 ├── assets/         # Logo and UI screenshot
 │   ├── logo.png
 │   └── ui-mockup.png

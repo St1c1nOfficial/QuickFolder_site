@@ -20,113 +20,117 @@
       </div>
     </a>
     <nav class="nav-links">
-      <a href="#why">Зачем</a>
-      <a href="#better">Преимущества</a>
-      <a href="#use">Где помогает</a>
-      <a href="#compare">Аналоги</a>
-      <a class="btn btn-sm" href="https://github.com/SticinOfficial/QuickFolder" target="_blank" rel="noopener">GitHub</a>
+      <a href="#why" data-i18n="nav.why">Зачем</a>
+      <a href="#better" data-i18n="nav.better">Преимущества</a>
+      <a href="#use" data-i18n="nav.use">Где помогает</a>
+      <a href="#compare" data-i18n="nav.compare">Аналоги</a>
+      <div class="lang-switch" data-lang-switcher role="group" aria-label="Language">
+        <button type="button" class="lang-btn is-active" data-lang="ru" aria-pressed="true">RU</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-sm" href="https://github.com/SticinOfficial/QuickFolder" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Windows · Offline · Без аккаунта</p>
-        <h1>Папки, которые нужны каждый день — <em>в один клик</em></h1>
-        <p class="lead">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Windows · Offline · Без аккаунта</p>
+        <h1 data-i18n="hero.title" data-i18n-html>Папки, которые нужны каждый день — <em>в один клик</em></h1>
+        <p class="lead" data-i18n="hero.lead">
           QuickFolder — лёгкое приложение, которое держит избранные каталоги под рукой:
           рабочий стол, проекты, документы, учёба. Без хаоса в проводнике и без лишних вкладок.
         </p>
         <div class="hero-cta">
-          <a class="btn btn-primary" href="https://github.com/SticinOfficial/QuickFolder/releases" target="_blank" rel="noopener">
+          <a class="btn btn-primary" href="https://github.com/SticinOfficial/QuickFolder/releases" target="_blank" rel="noopener" data-i18n="hero.download">
             Скачать для Windows
           </a>
-          <a class="btn btn-ghost" href="https://github.com/SticinOfficial/QuickFolder" target="_blank" rel="noopener">
+          <a class="btn btn-ghost" href="https://github.com/SticinOfficial/QuickFolder" target="_blank" rel="noopener" data-i18n="hero.source">
             Исходный код
           </a>
         </div>
         <ul class="hero-meta">
-          <li>Один файл .exe</li>
-          <li>Русский / English</li>
-          <li>Данные только у вас</li>
+          <li data-i18n="hero.meta1">Один файл .exe</li>
+          <li data-i18n="hero.meta2">Русский / English</li>
+          <li data-i18n="hero.meta3">Данные только у вас</li>
         </ul>
       </div>
       <div class="hero-visual">
         <div class="shot-frame">
-          <img src="assets/ui-mockup.png" alt="Интерфейс QuickFolder" />
+          <img src="assets/ui-mockup.png" alt="Интерфейс QuickFolder" data-i18n-alt="hero.shotAlt" />
         </div>
       </div>
     </section>
 
     <section class="section" id="why">
       <div class="section-head">
-        <h2>Для чего это</h2>
-        <p>Не ещё один «файловый менеджер на 100 кнопок», а быстрый доступ к тому, чем вы реально пользуетесь.</p>
+        <h2 data-i18n="why.title">Для чего это</h2>
+        <p data-i18n="why.lead">Не ещё один «файловый менеджер на 100 кнопок», а быстрый доступ к тому, чем вы реально пользуетесь.</p>
       </div>
       <div class="grid-3">
         <article class="card">
           <div class="icon">1</div>
-          <h3>Закрепить важное</h3>
-          <p>Добавьте папки проектов, клиента, учёбы или загрузок — и открывайте их без поиска по диску.</p>
+          <h3 data-i18n="why.card1.title">Закрепить важное</h3>
+          <p data-i18n="why.card1.text">Добавьте папки проектов, клиента, учёбы или загрузок — и открывайте их без поиска по диску.</p>
         </article>
         <article class="card">
           <div class="icon">2</div>
-          <h3>Навести порядок</h3>
-          <p>Группы, избранное, недавние и корзина. Всё разложено, как в удобном лаунчере, а не в куче ярлыков на рабочем столе.</p>
+          <h3 data-i18n="why.card2.title">Навести порядок</h3>
+          <p data-i18n="why.card2.text">Группы, избранное, недавние и корзина. Всё разложено, как в удобном лаунчере, а не в куче ярлыков на рабочем столе.</p>
         </article>
         <article class="card">
           <div class="icon">3</div>
-          <h3>Работать локально</h3>
-          <p>Без облака, без регистрации, без трекинга. Список папок хранится у вас — вы сами выбираете папку для данных.</p>
+          <h3 data-i18n="why.card3.title">Работать локально</h3>
+          <p data-i18n="why.card3.text">Без облака, без регистрации, без трекинга. Список папок хранится у вас — вы сами выбираете папку для данных.</p>
         </article>
       </div>
     </section>
 
     <section class="section alt" id="better">
       <div class="section-head">
-        <h2>Чем QuickFolder удобнее</h2>
-        <p>Сравниваем не «с Adobe», а с тем, как люди обычно открывают папки каждый день.</p>
+        <h2 data-i18n="better.title">Чем QuickFolder удобнее</h2>
+        <p data-i18n="better.lead">Сравниваем не «с Adobe», а с тем, как люди обычно открывают папки каждый день.</p>
       </div>
       <div class="compare-table wrap">
         <table>
           <thead>
             <tr>
               <th></th>
-              <th>Проводник Windows</th>
-              <th>Ярлыки на рабочем столе</th>
-              <th class="hl">QuickFolder</th>
+              <th data-i18n="table.h.explorer">Проводник Windows</th>
+              <th data-i18n="table.h.shortcuts">Ярлыки на рабочем столе</th>
+              <th class="hl" data-i18n="table.h.app">QuickFolder</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Скорость доступа</td>
-              <td>Часто «Клиент → диск → папка → ещё папка»</td>
-              <td>Быстро, но рабочий стол превращается в свалку</td>
-              <td class="hl">Один клик «Открыть»</td>
+              <td data-i18n="table.r1.label">Скорость доступа</td>
+              <td data-i18n="table.r1.explorer">Часто «Клиент → диск → папка → ещё папка»</td>
+              <td data-i18n="table.r1.shortcuts">Быстро, но рабочий стол превращается в свалку</td>
+              <td class="hl" data-i18n="table.r1.app">Один клик «Открыть»</td>
             </tr>
             <tr>
-              <td>Группировка</td>
-              <td>Ограничена</td>
-              <td>Почти нет</td>
-              <td class="hl">Свои группы, цвета, фильтры</td>
+              <td data-i18n="table.r2.label">Группировка</td>
+              <td data-i18n="table.r2.explorer">Ограничена</td>
+              <td data-i18n="table.r2.shortcuts">Почти нет</td>
+              <td class="hl" data-i18n="table.r2.app">Свои группы, цвета, фильтры</td>
             </tr>
             <tr>
-              <td>Поиск по избранному</td>
-              <td>По всему диску</td>
-              <td>Глазами</td>
-              <td class="hl">Мгновенный поиск по вашему списку</td>
+              <td data-i18n="table.r3.label">Поиск по избранному</td>
+              <td data-i18n="table.r3.explorer">По всему диску</td>
+              <td data-i18n="table.r3.shortcuts">Глазами</td>
+              <td class="hl" data-i18n="table.r3.app">Мгновенный поиск по вашему списку</td>
             </tr>
             <tr>
-              <td>Порядок</td>
-              <td>Зависит от дисциплины</td>
-              <td>Быстро захламляется</td>
-              <td class="hl">Избранное / недавние / корзина</td>
+              <td data-i18n="table.r4.label">Порядок</td>
+              <td data-i18n="table.r4.explorer">Зависит от дисциплины</td>
+              <td data-i18n="table.r4.shortcuts">Быстро захламляется</td>
+              <td class="hl" data-i18n="table.r4.app">Избранное / недавние / корзина</td>
             </tr>
             <tr>
-              <td>Внешний вид</td>
-              <td>Стандартный</td>
-              <td>—</td>
-              <td class="hl">Тёмный UI, акцентный цвет, RU/EN</td>
+              <td data-i18n="table.r5.label">Внешний вид</td>
+              <td data-i18n="table.r5.explorer">Стандартный</td>
+              <td data-i18n="table.r5.shortcuts">—</td>
+              <td class="hl" data-i18n="table.r5.app">Тёмный UI, акцентный цвет, RU/EN</td>
             </tr>
           </tbody>
         </table>
@@ -135,56 +139,56 @@
 
     <section class="section" id="use">
       <div class="section-head">
-        <h2>Где упрощает жизнь</h2>
-        <p>Реальные сценарии — не абстрактные «productivity tips».</p>
+        <h2 data-i18n="use.title">Где упрощает жизнь</h2>
+        <p data-i18n="use.lead">Реальные сценарии — не абстрактные «productivity tips».</p>
       </div>
       <div class="use-grid">
         <article class="use-card">
-          <h3>Разработка и фриланс</h3>
-          <p>Проекты на разных дисках, репозитории, дизайн-ресурсы. Открыл QuickFolder — сразу в нужную папку клиента.</p>
+          <h3 data-i18n="use.card1.title">Разработка и фриланс</h3>
+          <p data-i18n="use.card1.text">Проекты на разных дисках, репозитории, дизайн-ресурсы. Открыл QuickFolder — сразу в нужную папку клиента.</p>
         </article>
         <article class="use-card">
-          <h3>Учёба</h3>
-          <p>Лекции, курсовые, материалы по предметам. Не нужно каждый раз вспоминать, где лежит семестр.</p>
+          <h3 data-i18n="use.card2.title">Учёба</h3>
+          <p data-i18n="use.card2.text">Лекции, курсовые, материалы по предметам. Не нужно каждый раз вспоминать, где лежит семестр.</p>
         </article>
         <article class="use-card">
-          <h3>Работа в офисе</h3>
-          <p>Шаблоны, отчёты, общие сетевые папки. Меньше кликов — меньше раздражения в конце дня.</p>
+          <h3 data-i18n="use.card3.title">Работа в офисе</h3>
+          <p data-i18n="use.card3.text">Шаблоны, отчёты, общие сетевые папки. Меньше кликов — меньше раздражения в конце дня.</p>
         </article>
         <article class="use-card">
-          <h3>Медиа и личное</h3>
-          <p>Фото, видео, загрузки, архивы. Всё важное — в одном окне, а не размазано по «Документам».</p>
+          <h3 data-i18n="use.card4.title">Медиа и личное</h3>
+          <p data-i18n="use.card4.text">Фото, видео, загрузки, архивы. Всё важное — в одном окне, а не размазано по «Документам».</p>
         </article>
       </div>
     </section>
 
     <section class="section alt" id="compare">
       <div class="section-head">
-        <h2>Есть ли аналоги</h2>
-        <p>Да. Но чаще это либо тяжёлые файловые менеджеры, либо простые списки ярлыков.</p>
+        <h2 data-i18n="compare.title">Есть ли аналоги</h2>
+        <p data-i18n="compare.lead">Да. Но чаще это либо тяжёлые файловые менеджеры, либо простые списки ярлыков.</p>
       </div>
       <div class="grid-2">
         <article class="card wide">
-          <h3>Похожие решения</h3>
+          <h3 data-i18n="compare.similar.title">Похожие решения</h3>
           <ul class="bullets">
-            <li><strong>Total Commander / Directory Opus</strong> — мощные менеджеры. Много функций, выше порог входа, тяжелее «просто открыть 5 папок».</li>
-            <li><strong>fman, Double Commander</strong> — удобны для про-пользователей, но это снова полноценные менеджеры.</li>
-            <li><strong>Ярлыки Windows / панели быстрого доступа</strong> — бесплатно и встроено, но слабая организация и быстро захламляется.</li>
-            <li><strong>Launchy / Ueli / PowerToys Run</strong> — лаунчеры всего подряд. Не заточены именно под «каталог любимых папок».</li>
+            <li data-i18n="compare.similar.li1" data-i18n-html><strong>Total Commander / Directory Opus</strong> — мощные менеджеры. Много функций, выше порог входа, тяжелее «просто открыть 5 папок».</li>
+            <li data-i18n="compare.similar.li2" data-i18n-html><strong>fman, Double Commander</strong> — удобны для про-пользователей, но это снова полноценные менеджеры.</li>
+            <li data-i18n="compare.similar.li3" data-i18n-html><strong>Ярлыки Windows / панели быстрого доступа</strong> — бесплатно и встроено, но слабая организация и быстро захламляется.</li>
+            <li data-i18n="compare.similar.li4" data-i18n-html><strong>Launchy / Ueli / PowerToys Run</strong> — лаунчеры всего подряд. Не заточены именно под «каталог любимых папок».</li>
           </ul>
         </article>
         <article class="card wide accent-card">
-          <h3>Место QuickFolder</h3>
-          <p>
+          <h3 data-i18n="compare.place.title">Место QuickFolder</h3>
+          <p data-i18n="compare.place.text" data-i18n-html>
             Если вам не нужен «второй Total Commander», а нужен
             <strong>чистый список важных папок</strong> с группами, поиском и тёмным интерфейсом —
             QuickFolder попадает ровно в эту нишу.
           </p>
           <ul class="bullets">
-            <li>Один .exe, без установки зоопарка компонентов</li>
-            <li>Фокус на избранных путях, а не на всём диске</li>
-            <li>Локальные данные, первый запуск с выбором папки хранения</li>
-            <li>Открытый исходный код на GitHub</li>
+            <li data-i18n="compare.place.li1">Один .exe, без установки зоопарка компонентов</li>
+            <li data-i18n="compare.place.li2">Фокус на избранных путях, а не на всём диске</li>
+            <li data-i18n="compare.place.li3">Локальные данные, первый запуск с выбором папки хранения</li>
+            <li data-i18n="compare.place.li4">Открытый исходный код на GitHub</li>
           </ul>
         </article>
       </div>
@@ -193,13 +197,13 @@
     <section class="section cta-block">
       <div class="cta-inner">
         <img src="assets/logo.png" alt="" width="56" height="56" />
-        <h2>Попробуйте QuickFolder</h2>
-        <p>Скачайте релиз, укажите папку для данных и добавьте первые каталоги. Через минуту — уже быстрее, чем лазить по проводнику.</p>
+        <h2 data-i18n="cta.title">Попробуйте QuickFolder</h2>
+        <p data-i18n="cta.text">Скачайте релиз, укажите папку для данных и добавьте первые каталоги. Через минуту — уже быстрее, чем лазить по проводнику.</p>
         <div class="hero-cta">
-          <a class="btn btn-primary" href="https://github.com/SticinOfficial/QuickFolder/releases" target="_blank" rel="noopener">
+          <a class="btn btn-primary" href="https://github.com/SticinOfficial/QuickFolder/releases" target="_blank" rel="noopener" data-i18n="cta.download">
             Скачать .exe
           </a>
-          <a class="btn btn-ghost" href="https://github.com/SticinOfficial/QuickFolder" target="_blank" rel="noopener">
+          <a class="btn btn-ghost" href="https://github.com/SticinOfficial/QuickFolder" target="_blank" rel="noopener" data-i18n="cta.github">
             GitHub
           </a>
         </div>
@@ -212,10 +216,12 @@
       <strong>QuickFolder</strong> · by Sticin
     </div>
     <div class="footer-links">
-      <a href="https://github.com/SticinOfficial/QuickFolder" target="_blank" rel="noopener">Repository</a>
-      <a href="https://github.com/SticinOfficial/QuickFolder/releases" target="_blank" rel="noopener">Releases</a>
-      <a href="https://github.com/SticinOfficial/QuickFolder/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
+      <a href="https://github.com/SticinOfficial/QuickFolder" target="_blank" rel="noopener" data-i18n="footer.repo">Repository</a>
+      <a href="https://github.com/SticinOfficial/QuickFolder/releases" target="_blank" rel="noopener" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SticinOfficial/QuickFolder/blob/main/LICENSE" target="_blank" rel="noopener" data-i18n="footer.license">MIT License</a>
     </div>
   </footer>
+
+  <script src="i18n.js"></script>
 </body>
 </html>
