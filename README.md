@@ -8,12 +8,12 @@ Official landing page for **QuickFolder** — a lightweight Windows app for quic
 
 | | URL |
 |---|-----|
-| 🌐 **Website** | https://sticinofficial.github.io/QuickFolder_site/ |
-| 📦 Website repository | https://github.com/SticinOfficial/QuickFolder_site |
-| 💻 App source code | https://github.com/SticinOfficial/QuickFolder |
-| ⬇️ Download `.exe` | https://github.com/SticinOfficial/QuickFolder/releases |
+| 🌐 **Website** | https://st1c1nofficial.github.io/QuickFolder_site/ |
+| 📦 Website repository | https://github.com/St1c1nOfficial/QuickFolder_site |
+| 💻 App source code | https://github.com/St1c1nOfficial/QuickFolder |
+| ⬇️ Download `.exe` | https://github.com/St1c1nOfficial/QuickFolder/releases |
 
-> GitHub account: **[SticinOfficial](https://github.com/SticinOfficial)**  
+> GitHub account: **[St1c1nOfficial](https://github.com/St1c1nOfficial)**  
 > Brand / author: **Sticin**
 
 ## About the app
@@ -58,11 +58,11 @@ Pages are already enabled.
 
 - **Branch:** `main`
 - **Folder:** `/ (root)`
-- **URL:** https://sticinofficial.github.io/QuickFolder_site/
+- **URL:** https://st1c1nofficial.github.io/QuickFolder_site/
 
 If the site has not updated yet — wait 1–2 minutes or hard-refresh with Ctrl+F5.
 
 ## License
 
 Website content is for the QuickFolder project.  
-App license: see the [license in the main repository](https://github.com/SticinOfficial/QuickFolder).
+App license: see the [license in the main repository](https://github.com/St1c1nOfficial/QuickFolder).
