@@ -2,7 +2,7 @@
 
 Official landing page for **QuickFolder** — a lightweight Windows app for quick access to your favorite folders.
 
-**by Sticin**
+**by St1c1n**
 
 ## Links
 
@@ -14,7 +14,7 @@ Official landing page for **QuickFolder** — a lightweight Windows app for quic
 | ⬇️ Download `.exe` | https://github.com/St1c1nOfficial/QuickFolder/releases |
 
 > GitHub account: **[St1c1nOfficial](https://github.com/St1c1nOfficial)**  
-> Brand / author: **Sticin**
+> Brand / author: **St1c1n**
 
 ## About the app
 

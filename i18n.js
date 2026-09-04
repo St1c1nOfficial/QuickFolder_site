@@ -6,7 +6,7 @@
     ru: {
       "meta.title": "QuickFolder — быстрый доступ к папкам",
       "meta.description":
-        "QuickFolder — лёгкое Windows-приложение для быстрого доступа к избранным папкам. Группы, поиск, RU/EN. by Sticin.",
+        "QuickFolder — лёгкое Windows-приложение для быстрого доступа к избранным папкам. Группы, поиск, RU/EN. by St1c1n.",
       "nav.why": "Зачем",
       "nav.better": "Преимущества",
       "nav.use": "Где помогает",
@@ -106,7 +106,7 @@
     en: {
       "meta.title": "QuickFolder — quick access to folders",
       "meta.description":
-        "QuickFolder — a lightweight Windows app for quick access to your favorite folders. Groups, search, RU/EN. by Sticin.",
+        "QuickFolder — a lightweight Windows app for quick access to your favorite folders. Groups, search, RU/EN. by St1c1n.",
       "nav.why": "Why",
       "nav.better": "Benefits",
       "nav.use": "Use cases",
